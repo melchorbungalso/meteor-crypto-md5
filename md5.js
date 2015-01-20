@@ -116,6 +116,8 @@ code.google.com/p/crypto-js/wiki/License
 				H[i] = (((H_i << 8)  | (H_i >>> 24)) & 0x00ff00ff) |
 					   (((H_i << 24) | (H_i >>> 8))  & 0xff00ff00);
 			}
+
+                        return this._hash;
 		}
 	});
 
